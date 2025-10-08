@@ -39,6 +39,7 @@ export PATH="$WASI_SDK_PATH/bin:$PATH"
 # -------------------------------------------------------------------
 # Prepare ngspice source (reuse backup if present)
 # -------------------------------------------------------------------
+/*
 if [ -f "../ngspice-backup.tar.gz" ]; then
   echo "Found ngspice-backup.tar.gz, extracting..."
   rm -rf ngspice
@@ -52,6 +53,7 @@ else
 fi
 
 cd ngspice
+*/
 
 # -------------------------------------------------------------------
 # Apply WASI patches (idempotent, guarded by markers)
