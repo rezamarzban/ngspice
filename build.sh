@@ -37,25 +37,6 @@ export WASI_SDK_PATH="$PWD/wasi-sdk-${WASI_VERSION}"
 export PATH="$WASI_SDK_PATH/bin:$PATH"
 
 # -------------------------------------------------------------------
-# Prepare ngspice source (reuse backup if present)
-# -------------------------------------------------------------------
-/*
-if [ -f "../ngspice-backup.tar.gz" ]; then
-  echo "Found ngspice-backup.tar.gz, extracting..."
-  rm -rf ngspice
-  tar -xzf ../ngspice-backup.tar.gz
-else
-  echo "No backup found, cloning from GitHub..."
-  rm -rf ngspice
-  git clone https://github.com/imr/ngspice.git ngspice
-  # Create backup for next time
-  tar -czf ../ngspice-backup.tar.gz ngspice
-fi
-
-cd ngspice
-*/
-
-# -------------------------------------------------------------------
 # Apply WASI patches (idempotent, guarded by markers)
 # -------------------------------------------------------------------
 
