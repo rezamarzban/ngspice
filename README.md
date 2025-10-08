@@ -6,7 +6,7 @@
 
 # Run
 
-Download built`ngspice.wasm` from this repository root directory, Or build and copy it from `ngspice/src/` directory:
+Download previously built `ngspice.wasm` from this repository root directory, Or build and copy it from `ngspice/src/` directory:
 
 Assume that `test.cir` SPICE netlist is placed in `/circuits` directory:
 
