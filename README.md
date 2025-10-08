@@ -4,7 +4,7 @@
 ./buildWASIwasm.sh
 ```
 
-This will build WASI compiled wasm binary from ngspice source.
+This will build WASI compiled wasm binary from ngspice source in Linux/Debian based distribution.
 
 # Run
 
