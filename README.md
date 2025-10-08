@@ -6,7 +6,9 @@
 
 # Run
 
-Assume `test.cir` SPICE netlist is in `/circuits` directory:
+Download `ngspice.wasm` from this repository, Or build and copy it from `ngspice/src/` directory:
+
+Assume that `test.cir` SPICE netlist is placed in `/circuits` directory:
 
 ```
 wasmtime run --dir /circuits --dir /tmp --dir / --dir /proc ngspice.wasm -b /circuits/test.cir
