@@ -4,6 +4,8 @@
 ./build.sh
 ```
 
+This will build WASI compiled wasm binary from ngspice source.
+
 # Run
 
 Download previously built `ngspice.wasm` from this repository root directory, Or build and copy it from `ngspice/src/` directory:
