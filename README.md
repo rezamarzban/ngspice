@@ -1,10 +1,10 @@
-### Build
+# Build
 
 ```
 ./build.sh
 ```
 
-### Run
+# Run
 
 Assume `test.cir` SPICE netlist is in `/circuits` directory:
 
@@ -13,8 +13,6 @@ wasmtime run --dir /circuits --dir /tmp --dir / --dir /proc ngspice.wasm -b /cir
 ```
 
 The output files will go to `/` dir.
-
-### NGSPICE
 
 README for NGSPICE
 ==================
